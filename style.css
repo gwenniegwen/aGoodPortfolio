@@ -15,7 +15,14 @@ body{
     color: royalblue;
 }
   
+h2{
+    color: seashell;
+}
 
+#box{
+ 
+    background:skyblue rgba(0,0,0,0.55);
+}
 #navbar {
       background:#e3e7f1; 
       border-bottom: 5px solid black;
@@ -24,7 +31,7 @@ body{
       padding: 0;
       font-family: 'Anton';
       justify-content: space-between;
-      position: fixed;
+      position: sticky;
       top: 0;
       left: 0;
       width: 100%;

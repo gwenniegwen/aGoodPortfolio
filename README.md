@@ -1,5 +1,5 @@
 # myPortfolio
 
-*An updated portfolio 
+*An updated portfolio for Gwendolyn Thomas
 
-## Deployed Link: 
+## Deployed Link: https://gwenniegwen.github.io/myPortfolio-/

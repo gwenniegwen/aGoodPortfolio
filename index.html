@@ -4,156 +4,242 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/15868ef2e3.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Anton|Roboto&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" type="text/css" href="./style.css">
-
+  <link rel="stylesheet" type="text/css" href="./assets/css/utlities.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
   <title>It's Me!</title>
 </head>
 
 <body id="home">
-
-
-
-
   <!-- nav bar -->
+  <header class="intro">
+    <div class="navbar" id="navbar">
 
-  <div class="row nav flex-column nav nav-pills">
-    <nav id="navbar">
       <!-- name -->
-      <div class="col-9">
-        <h1> <span class="text-primary">
-            <i class="fas fa-code"></i> Gwendolyn </span>Thomas. </h1>
-      </div>
-      <!-- nav -->
-      <div class="col-3" id="navi">
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a class="nav-link" href="#home">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </div>
+      <h1 class="name"> <span class="text-primary">
+          <i class="fas fa-code"></i> Gwendolyn </span>Thomas.
+      </h1>
 
-  <!-- //section 1-main page// -->
-  <header id="main-content">
+      <!-- nav -->
+      <nav>
+
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- //main page// -->
     <div class="info">
-      <img src=".\20190824_001444.jpg" alt="Gwendolyn Thomas" width="200px" height="200px">
+      <div id="me">
+        <img src="./assets/images/20190824_001444.jpg" alt="Gwendolyn Thomas">
+      </div>
       <h1 class="title">Full Stack Web Developer</h1>
-      <p class="text-md-center" id="description">
+      <p id="description">
         "I can show you better than I can tell you."
       </p>
-      <a href="#portfolio" class="btn btn-light">Learn More</a>
-    </div>
+      <a href="#about" class="btn"><i class="fas fa-info"></i> Learn More</a>
 
+
+
+    </div>
   </header>
 
-  <!-- //section 2-work// -->
-  <section id="portfolio">
-    <div class="container" id="box">
-      <h2 class="m-heading"> <span class="text-primary"> Behold! </span> The Work </h2>
+  <main>
+    <!-- about overview -->
+    <section id="about" class="icons bg-light">
+      <div class="flex-items">
+        <div>
+          <i class="fas fa-file-code fa-2x"></i>
+          <div>
+            <h3>Front End</h3>
+            <p>CSS3, HTML5, Bootstraps</p>
+          </div>
+        </div>
+
+        <div>
+          <i class="fas fa-file-code fa-2x"></i>
+          <div>
+            <h3>Back End</h3>
+            <p>JavaScript, Node, SQL, MongoDB</p>
+          </div>
+        </div>
+
+        <div>
+          <i class="fas fa-file-code fa-2x"></i>
+          <div>
+            <h3>Collaboration</h3>
+            <p>I work well with others whether as a Team Leader or a Team Member. </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- about continued -->
+    <section class="solutions flex-columns">
       <div class="row">
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-            <img src="./planner.jpg" class="card-img-top" alt="Daily-Planner">
-            <div class="card-body">
-              <h5 class="card-title">Daily Planner</h5>
-              <p class="card-text">A simple daily planner, that allows you to save your input</p>
-              <a href="https://gwenniegwen.github.io/Daily-Planner/" class="btn btn-primary">See for Yourself</a>
-            </div>
+        <div class="column">
+          <div class="column-1">
+            <img src="./assets/images/Mockup5 (1).png" alt="image">
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-            <img src="./joke.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Just Jokes.</h5>
-              <p class="card-text">A random joke and Gif generator.</p>
-              <a href="https://rfilkin.github.io/UCLA_group_proect_1/" class="btn btn-primary">See for Yourself</a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-            <img src="./password.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">What's Yo Password?</h5>
-              <p class="card-text">A random password generator.</p>
-              <a href="https://gwenniegwen.github.io/homework3/" class="btn btn-primary">See for Yourself</a>
-            </div>
+        <div class="column">
+          <div class="column-2 bg-primary">
+            <h4>But wait there's more...</h4>
+            <h2>Not Only Am I Software Developer</h2>
+            <p> I have my own brand. I am the creator of a brand known as the Kingdom Identity or the Kings Id for short.
+              We specialize in faith based products and overall spreading the Gospel of Jesus Christ.
+            </p>
+            <a href="https://www.thekingsid.com" class="btn btn-outline"> Check it out
+
+            </a>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- //section 3-contact// -->
-  <section id="contact">
-    <div class="container " id="box">
-      <div class="row">
-        <div class="col">
-         </div>
-        <div class="col"><h2>More About Me</h2></div>
-        <div class="w-100"></div>
-        <div class="col">  <h2>Keep In Touch</h2>
-          <form>
-          <div class="form-group">
-            <label for="formGroupExampleInput">Full Name</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Full Name">
-          </div>
-    
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-              placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-              else.</small>
-          </div>
-    
-          <div class="form-group">
-            <label for="formGroupExampleInput2">Message</label>
-            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Type a brief message">
-          </div>
-    
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form></div>
-        <div class="col"><a class="dropdown-item" href="https://github.com/gwenniegwen"><i class="fab fa-github">GitHub</i></a>
-          <a class="dropdown-item" href="https://www.linkedin.com/in/gwendolyn-thomas-5a4442192/"><i class="fab fa-linkedin">Linked
-              In</i></a>
-          <!-- <a class="dropdown-item" href="https://www.instagram.com/gwennie.gwen/"><i
-              class="fab fa-instagram">Instagram</i></a></div> -->
-          <a class="dropdown-item" href=".\Resume.pdf" ><i class="fas fa-pencil-alt"></i>Resume</a></div>
+    <!-- portfolio -->
+    <section id="portfolio" class="portfolio bg-secondary flex-grid section-padding">
+      <header class="section-header bg-light">
+        <h4> Check out the work</h4>
+        <h2> Projects I've built</h2>
+        <p> Below you can find examples of projects that I have coded. Some of these projects were homework
+          assignments from the UCLA Coding Bootcamp while others were collabrotive team projects
+          below you can <strong>click the picture</strong> to go to the deployed site
+        </p>
+
+      </header>
+      <div class="row bg-primary">
+        <div class="column">
+          <a href="https://gwenniegwen.github.io/aGoodPasswordGenerator/">
+            <img src="./assets/images/password.jpg"></a><a href="https://github.com/gwenniegwen/aGoodPasswordGenerator">
+              <h3>GitHub Repo<h3>
+            </a>
+
+
+
+
+          <a href="https://gwenniegwen.github.io/aGoodDailyPlanner/">
+            <img src="./assets/images/planner.jpg"></a><a href="https://github.com/gwenniegwen/aGoodDailyPlanner">
+            <h3>GitHub Repo<h3>
+          </a>
+        </div>
+
+        <div class="column">
+          <a href="https://github.com/gwenniegwen/aGoodReadMe">
+            <img src="./assets/images/readme.PNG"></a><a href="https://github.com/gwenniegwen/aGoodReadMe">
+              <h3>GitHub Repo<h3></a>
+          <a href="https://agoodnotetaker.herokuapp.com/">
+            <img src="./assets/images/notes.PNG"></a><a href="https://github.com/gwenniegwen/aGoodNoteTaker">
+              <h3>GitHub Repo<h3></a>
+        </div>
+
+        <div class="column">
+          <a href="http://gentle-mountain-53918.herokuapp.com/">
+            <img src="./assets/images/workout.PNG"></a><a href="https://github.com/gwenniegwen/aGoodFitnessTracker">
+              <h3>GitHub Repo<h3></a>
+          <a href="https://gwenniegwen.github.io/aGoodJoke/">
+            <img src="./assets/images/joke.jpg"></a><a href="https://github.com/rfilkin/UCLA_group_proect_1">
+              <h3>GitHub Repo<h3></a>
+        </div>
+
+        <div class="column">
+          <a href="https://guarded-beach-20937.herokuapp.com/">
+            <img src="./assets/images/cofit.PNG"></a><a href="https://github.com/elliotfouts/project-2">
+              <h3>GitHub Repo<h3></a>
+          <a href=" https://gwenniegwen.github.io/aGoodWeatherDashboard/">
+            <img src="./assets/images/Annotation 2020-05-16 154859.png"></a>
+            <a href="https://github.com/gwenniegwen/aGoodWeatherDashboard">
+              <h3>GitHub Repo<h3></a>
+        </div>
       </div>
+
+    </section>
+
+    <!-- contacts -->
+    <section id="contact" class="contact flex-columns ">
+      <div class="row">
+
+        <div class="column">
+          <div class="column-1 bg-light">
+            <h2>More About Me</h2>
+
+            <a href="./assets/Resume.pdf"><i class="fas fa-pencil-alt fa-2x"></i>Personal Resume</a>
+            <a href="./assets/Resume.pdf"><i class="fas fa-pencil-alt fa-2x"></i>Coding Resume</a>
+            <a class href="#3233487727"><i class="fas fa-phone-volume fa-2x"></i>Call Me</a> -->
+            <!-- <a class href="#"><i class="fas fa-link fa-2x"></i>Stay Up to Date</a> -->
+            <a href="https://github.com/gwenniegwen"><i class="fab fa-github fa-2x">GitHub</i></a>
+            <a href="https://www.linkedin.com/in/gwendolyn-thomas-5a4442192/"><i class="fab fa-linkedin fa-2x">Linked
+                In</i></a>
+            <a href="https://www.linkedin.com/in/gwendolyn-thomas-5a4442192/"><i
+                class="fab fa-instagram fa-2x">Instagram</i></a>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="column-2 bg-secondary">
+            <img src="./assets/images/95388620_2620105514912891_685244435595788288_n.jpg" alt="image">
+          </div>
+        </div>
+
+        <div class="column bg-light">
+          <div class="column-3 bg-light">
+            <h2>Keep In Touch</h2>
+            <form action="" class="contact-form">
+              <div class="form-control">
+                <label for="name"></label>
+                <input type="text" name="name" id="name" placeholder="Enter Name">
+              </div>
+              <div class="form-control">
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Enter An Email Address">
+
+              </div>
+              <div class="form-control">
+                <label for="phone"></label>
+                <input type="text" name="name" id="phone" placeholder="Enter A Phone Number">
+                <input type="submit" value="Submit" id="submit" class="btn">
+              </div>
+
+
+          </div>
+        </div>
+        </form>
+
+      </div>
+
+    </section>
+
+  </main>
+  <footer class="footer bg-primary">
+    <div class="social">
+
     </div>
-   
-  </section>
-
-  <footer>
-
-    <h5><strong>Reminder: You are not taking a gamble... you are making an investment #investInYourself</h5></strong>
-
-
-
-
+    <p>Copyright &copy 2020 - Gwendolyn Thomas</p>
   </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 
 </html>
-
-<!--  -->
-

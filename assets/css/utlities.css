@@ -1,0 +1,213 @@
+/* text style */
+
+.text-primary{
+    color: #27496d;
+}
+
+.text-secondary{
+    color: #142850;
+}
+
+/* Button */
+
+.btn{
+    background: #27496d;
+    border:none;
+    border-radius: 5px;
+    color: #dae1e7;
+    display: inline-block;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.btn a {
+    color: #20655f;
+    transition: color 300ms;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+.btn-primary, .bg-primary {
+    background:#27496d; 
+    color: #dae1e7;
+}
+
+.btn-secondary, .bg-secondary {
+    background:#142850; 
+    color: #dae1e7;
+}
+
+.btn-dark, .bg-dark {
+    background:#333; 
+    color: bisque;
+}
+
+.btn-light, .bg-light {
+    background:#f4f4f4; 
+    color: #333;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+/* flex items */
+
+.flex-items {
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.flex-items > div {
+    padding: 20px;
+}
+
+/* flex columns */
+
+.flex-columns.flex-reverse .row{
+    flex-direction: row-reverse;
+}
+
+.flex-columns .row{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.flex-columns .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.flex-columns .column .column-1,
+
+.flex-columns .column .column-2{
+    height: 100%;
+
+}
+
+.flex-columns img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.flex-columns .column-2{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+.flex-columns h2{
+    font-size: 40px;
+    font-size: 100;
+}
+
+.flex-columns h4{
+    margin-bottom: 10px;
+}
+
+.flex-columns p {
+    margin: 20px 0;
+}
+
+/* Section Header */
+
+.section-header{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.section-header h2{
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.section-padding{
+    padding: 20px 20px 40px;
+}
+
+/* flex grid */
+
+.flex-grid .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.flex-grid .column{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+/* form */
+
+.contact-form{
+ width: 100%;
+ padding: 20px 0;   
+}
+
+.contact-form label{
+  display: block;  
+  margin-bottom: 5px;
+}
+
+.contact-form .form-control{
+   margin-bottom: 15px; 
+}
+
+.contact-form input{
+width: 100%;
+padding: 4px;
+height: 40px;
+border: #27496d 1px solid;
+
+}
+
+.contact-form input:focus{
+    outline-color: #20655f;
+}
+
+.contact-form .btn{
+    padding: 12px 0;
+    margin-top: 20px;
+}
+
+
+.contact h2{
+    
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 40px;
+        /* margin: 20px 0; */
+}
+
+.contact a{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+   align-content: stretch;
+    justify-content: space-between;
+    align-items: center;
+}
